@@ -30,7 +30,7 @@ public class ReadSymptomDataFromFile implements ISymptomReader {
 		 * 
 		 */
 		
-		
+		// Check if the file exist
 		if (filepath != null) {
 			try {
 				BufferedReader reader = new BufferedReader (new FileReader(filepath));
